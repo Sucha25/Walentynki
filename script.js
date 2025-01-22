@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Pokazanie smutnego kota
     responseDiv.innerHTML = `
       <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2o4ZndnMHN3NnlocDIzZTI1amRkOWdybXowbDIxb2Q1Y2J0YTRxbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wfS4vDyVsASQygl4mN/giphy.gif" alt="Smutny kot">
-      <p>Oh nie... 😿 Mam nadzieję, że zmienisz zdanie!</p>
+      <p>I po co to klikasz? Nie ma takiej możliwości!</p>
     `;
     responseDiv.classList.remove("hidden");
   });
