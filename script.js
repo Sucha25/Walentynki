@@ -3,13 +3,24 @@ document.addEventListener("DOMContentLoaded", () => {
   const noButton = document.getElementById("noButton");
   const photoInput = document.getElementById("photoInput");
   const photoSlot = document.querySelector(".photo-slot");
+  const responseDiv = document.getElementById("response");
 
   yesButton.addEventListener("click", () => {
-    alert("Hurra! 🥰 Nie mogę się doczekać naszych wspólnych walentynek!");
+    // Pokazanie szczęśliwego kota
+    responseDiv.innerHTML = `
+      <img src="happy-cat.gif" alt="Szczęśliwy kot">
+      <p>Hurra! 🥰 Czeka nas mnóstwo wspaniałych chwil razem!</p>
+    `;
+    responseDiv.classList.remove("hidden");
   });
 
   noButton.addEventListener("click", () => {
-    alert("😿 Oh nie... Ale mam nadzieję, że zmienisz zdanie!");
+    // Pokazanie smutnego kota
+    responseDiv.innerHTML = `
+      <img src="sad-cat.gif" alt="Smutny kot">
+      <p>Oh nie... 😿 Mam nadzieję, że zmienisz zdanie!</p>
+    `;
+    responseDiv.classList.remove("hidden");
   });
 
   photoInput.addEventListener("change", (event) => {
