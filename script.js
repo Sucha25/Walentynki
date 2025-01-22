@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
   yesButton.addEventListener("click", () => {
     // Pokazanie szczęśliwego kota
     responseDiv.innerHTML = `
-      <img src="happy-cat.gif" alt="Szczęśliwy kot">
-      <p>Hurra! 🥰 Czeka nas mnóstwo wspaniałych chwil razem!</p>
+      <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGh1d3RkNmV5enU3anJ2NnRzbmx1NTdlbXE4ejJmYTdlMGRzeXo1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ToCRja2miF3Xi/giphy.gif" alt="Szczęśliwy kot">
+      <p>Strasznie mnie to cieszyyyyy 🥰 Kocham Cię!</p>
     `;
     responseDiv.classList.remove("hidden");
   });
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   noButton.addEventListener("click", () => {
     // Pokazanie smutnego kota
     responseDiv.innerHTML = `
-      <img src="sad-cat.gif" alt="Smutny kot">
+      <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2o4ZndnMHN3NnlocDIzZTI1amRkOWdybXowbDIxb2Q1Y2J0YTRxbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wfS4vDyVsASQygl4mN/giphy.gif" alt="Smutny kot">
       <p>Oh nie... 😿 Mam nadzieję, że zmienisz zdanie!</p>
     `;
     responseDiv.classList.remove("hidden");
