@@ -52,6 +52,20 @@ h1 {
   background-color: #e63e5c;
 }
 
+.response {
+  margin-top: 30px;
+}
+
+.response img {
+  width: 200px;
+  height: auto;
+  margin: 10px 0;
+}
+
+.response.hidden {
+  display: none;
+}
+
 .photos {
   margin-top: 30px;
 }
